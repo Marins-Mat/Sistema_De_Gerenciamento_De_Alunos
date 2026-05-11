@@ -1,9 +1,15 @@
 package Service;
 
 public class AlunoService {
-    public void cadastrarAluno(){}
+    public static void cadastrarAluno(){
+        System.out.println("Funcionalidade ainda não implementada");
+    }
 
-    public void registrarNota() {}
+    public static void registrarNota() {
+        System.out.println("Funcionalidade ainda não implementada");
+    }
 
-    public void registrarFalta(){}
+    public static void registrarFalta(){
+        System.out.println("Funcionalidade ainda não implementada");
+    }
 }
