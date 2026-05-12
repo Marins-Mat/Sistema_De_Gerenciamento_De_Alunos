@@ -2,16 +2,11 @@ package factories;
 
 import menu.ItemMenu;
 import menu.Menu;
-import service.AlunoService;
-import service.MateriaService;
 import menu.OpcaoMenu;
-import service.ProfessorService;
-import service.TurmaService;
 import util.AppContext;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 public class MenuFactory {
 

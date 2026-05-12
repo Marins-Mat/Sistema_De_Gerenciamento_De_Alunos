@@ -10,4 +10,8 @@ public class Materia {
         this.id = id;
         this.nome = nome;
     }
+
+    public String getNome() {
+        return nome;
+    }
 }

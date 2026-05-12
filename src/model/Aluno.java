@@ -30,4 +30,12 @@ public class Aluno {
         this.notas = notas;
         this.faltas = faltas;
     }
+
+    public Long getId() {
+        return id;
+    }
+
+    public String getNome() {
+        return nome;
+    }
 }

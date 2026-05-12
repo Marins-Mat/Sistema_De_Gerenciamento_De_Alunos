@@ -35,4 +35,16 @@ public class Professor {
         this.turnos = turnos;
         this.materias = materias;
     }
+
+    public List<Turno> getTurnos() {
+        return turnos;
+    }
+
+    public List<Materia> getMaterias() {
+        return materias;
+    }
+
+    public String getNome() {
+        return nome;
+    }
 }
