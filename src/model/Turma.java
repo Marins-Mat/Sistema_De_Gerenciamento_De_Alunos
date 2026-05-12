@@ -20,6 +20,22 @@ public class Turma {
         this.professor = professor;
         this.alunos = alunos;
     }
+
+    public Turno getTurno() {
+        return turno;
+    }
+
+    public Materia getMateria() {
+        return materia;
+    }
+
+    public Professor getProfessor() {
+        return professor;
+    }
+
+    public List<Aluno> getAlunos() {
+        return alunos;
+    }
 }
 
 

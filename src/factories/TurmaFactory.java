@@ -6,11 +6,13 @@ import model.Professor;
 import model.Turma;
 import model.enuns.Turno;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class TurmaFactory {
 
-    public static Turma criar(Long id, Turno turno, Materia materia, Professor professor, List<Aluno> alunos) {
+    public static Turma criar(Long id, Turno turno, Materia materia, Professor professor) {
+        List<Aluno> alunos = new ArrayList<>();
         return new Turma(id, turno, materia, professor, alunos);
     }
 }

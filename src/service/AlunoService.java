@@ -2,6 +2,7 @@ package service;
 
 import factories.AlunoFactory;
 import model.Aluno;
+import repositories.interfaces.AlunoRepository;
 
 import java.util.Scanner;
 
@@ -9,7 +10,7 @@ public class AlunoService {
 
     Scanner in;
     Long proximoId;
-    public AlunoService(Scanner in) {
+    public AlunoService(Scanner in, AlunoRepository alunoRepository) {
         this.in = in;
         proximoId = 1L;
     }
