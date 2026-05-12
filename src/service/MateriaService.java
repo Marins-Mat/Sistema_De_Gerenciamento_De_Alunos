@@ -1,6 +1,4 @@
-package Service;
-
-import model.Materia;
+package service;
 
 public class MateriaService {
     public static void cadastrarMateria(){

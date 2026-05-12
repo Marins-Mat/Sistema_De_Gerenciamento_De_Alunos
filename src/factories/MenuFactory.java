@@ -1,12 +1,12 @@
-package Factories;
+package factories;
 
-import Menu.ItemMenu;
-import Menu.Menu;
-import Service.AlunoService;
-import Service.MateriaService;
-import Menu.OpcaoMenu;
-import Service.ProfessorService;
-import Service.TurmaService;
+import menu.ItemMenu;
+import menu.Menu;
+import service.AlunoService;
+import service.MateriaService;
+import menu.OpcaoMenu;
+import service.ProfessorService;
+import service.TurmaService;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,11 +16,11 @@ public class MenuFactory {
 
     Scanner in;
 
+
+
     public MenuFactory(Scanner in) {
         this.in = in;
     }
-
-
 
     public Menu fabricarMenu() {
 

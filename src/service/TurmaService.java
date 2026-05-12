@@ -1,4 +1,4 @@
-package Service;
+package service;
 
 public class TurmaService {
     public static void cadastrarTurma(){

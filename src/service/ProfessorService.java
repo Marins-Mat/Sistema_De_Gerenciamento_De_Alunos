@@ -1,6 +1,4 @@
-package Service;
-
-import model.Professor;
+package service;
 
 public class ProfessorService {
     public static void cadastrarProfessor(){
