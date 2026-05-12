@@ -1,4 +1,4 @@
-package Menu;
+package menu;
 
 public record OpcaoMenu(String descricao, Runnable acao) implements ItemMenu{
 

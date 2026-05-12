@@ -7,17 +7,19 @@
 // Este projeto tem como proposta a utiização de diversas ferramentas e aprendizados, como o respeito aos principios SOLID, padrões de projeto, uso de Banco de Dados e e Testes Junit com Mockito.
 
 
-import Factories.MenuFactory;
+import factories.MenuFactory;
 
-import Menu.Menu;
+import menu.Menu;
+import util.AppContext;
 
 
 Menu menu;
-Scanner in = new Scanner(System.in);
+AppContext context;
 
 void main() {
 
-    menu = new MenuFactory(in).fabricarMenu();
+    context = new AppContext();
+    menu = new MenuFactory(context).criar();
 
     menu.exibirMenu();
 }
